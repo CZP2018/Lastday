@@ -12,3 +12,6 @@ class Test_allure:
     def test_al(self, a):
         allure.attach('描述', '我是测试步骤001的描述～～～')
         assert a != 2
+    def test_two(self):
+        print("错误的测试")
+        assert 0
